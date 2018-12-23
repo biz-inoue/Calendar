@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<title>Bizcalendar</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link rel='stylesheet' href='webjars/fullcalendar/3.5.1/dist/fullcalendar.css' />
+	<script src="webjars/jquery/2.0.3/jquery.min.js"></script>
+	<script src='webjars/moment/2.19.1/min/moment.min.js'></script>
+	<script src='webjars/fullcalendar/3.5.1/dist/gcal.min.js'></script>
+	<script src='webjars/fullcalendar/3.5.1/dist/fullcalendar.js'></script>
+	<script src="/js/Calendarmain.js" th:src="@{/js/Calendarmain.js}"></script>
+</head>
+<body>
+<div th:replace="/common/Common.html::header"></div>
+<div th:replace="/common/Header.html::header"></div>
+<br>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-sm-8">
+			<div id="calendar"></div>
+		</div>
+		<br>
+		<div class="col-sm-4">
+			<form class="form-inline">
+				<div class="form-group mx-sm-3 mb-2">
+					<input type="date" class="form-control" id="">
+				</div>
+				<button type="submit" class="btn btn-primary mb-2">日付検索</button>
+			</form>
+			<br>
+			<div class="list-group">
+				<a href="#" class="list-group-item list-group-item-action">ここにイベントが表示される。</a>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
