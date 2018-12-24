@@ -127,5 +127,6 @@ $RECYCLE.BIN/
 # gradle/wrapper/gradle-wrapper.properties
 bizcalendar/src/main/resources/application.properties
 bizcalendar/target/classes/application.properties
+bizcalendar/target/classes/META-INF/maven/org.springframework/gs-mysql-data/pom.properties
 
 # End of https://www.gitignore.io/api/java,windows,eclipse
