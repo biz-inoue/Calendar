@@ -125,6 +125,7 @@ $RECYCLE.BIN/
 # ADD for spring
 !gradle-wrapper.jar
 # gradle/wrapper/gradle-wrapper.properties
-
+bizcalendar/src/main/resources/application.properties
+bizcalendar/target/classes/application.properties
 
 # End of https://www.gitignore.io/api/java,windows,eclipse
